@@ -18,6 +18,14 @@ public class Auteur {
     	this.email = email;
     }
     
+    public Auteur(Long id, String nom, String prenom, String telephone, String email) { 
+    	this.id = id;
+    	this.nom = nom;
+    	this.prenom = prenom;
+    	this.telephone = telephone;
+    	this.email = email;
+    }
+    
 	public Long getId() {
 		return id;
 	}
